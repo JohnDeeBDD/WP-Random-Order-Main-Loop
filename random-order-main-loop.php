@@ -9,11 +9,11 @@
  GitHub Plugin URI: https://github.com/JohnDeeBDD/WP-Random-Order-Main-Loop
  */
 
-namespace GeneralChicken;
+namespace RandomizeMainLoop;
 
 function randomizeMainLoop( $query ) {
 	if ( ! is_admin() && $query->is_main_query() ) {
 		$query->set( 'orderby', 'rand' );
 	}
 }
-add_action( 'pre_get_posts', 'GeneralChicken\randomizeMainLoop' );
+add_action( 'pre_get_posts', 'RandomizeMainLoop\randomizeMainLoop' );
