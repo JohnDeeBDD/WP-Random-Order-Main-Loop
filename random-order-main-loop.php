@@ -1,11 +1,11 @@
 <?php
 /*
  Plugin Name: Randomize Main Loop
- Plugin URI: https://generalchicken.net
+ Plugin URI: https://generalchicken.guru
  Description: Sets the main loop to a random order 
  Version: 1.0
  Author: John Dee
- Author URI: https://generalchicken.net
+ Author URI: https://generalchicken.guru
  GitHub Plugin URI: https://github.com/JohnDeeBDD/WP-Random-Order-Main-Loop
  */
 
